@@ -20,10 +20,8 @@ As quantum computing advances, the existing implemented classical crypto schemes
 
 ## Features
 
-- Comprehensive implementations of leading PQC algorithms.
-- Well-documented code suitable for educational and research purposes.
-- Modular design to easily extend and add new algorithms.
-- Example scripts demonstrating usage and testing.
+- Detailed implementations of leading PQC algorithms.
+
 
 ## Implemented Algorithms
 
