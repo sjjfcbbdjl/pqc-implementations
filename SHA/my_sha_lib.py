@@ -1,3 +1,5 @@
+# SHA-256 hash function
+
 def my_sha256(message):
     
     binary = ''.join(format(ord(char), '08b') for char in message)
@@ -97,9 +99,10 @@ def my_sha256(message):
 
         H = compute_intermediate_hash(H, a, b, c, d, e, f, g, h)
 
-        block_hash = ''.join(f'{s:08x}' for s in H)
-
     final_hash = ''.join(f'{s:08x}' for s in H)
     return final_hash
+
+
+
 
 
