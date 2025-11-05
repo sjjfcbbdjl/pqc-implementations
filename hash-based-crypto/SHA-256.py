@@ -181,7 +181,7 @@ def my_sha256(message):
    
 
     final_hash = ''.join(f'{s:08x}' for s in H)
-    print(f"\nFinal SHA-1 Hash: {final_hash}")
+    print(f"\nFinal SHA-256 Hash: {final_hash}")
     return final_hash
 
 message = input("Please Enter your Message: ")
@@ -191,5 +191,5 @@ final_hash = my_sha256(message)
 import hashlib
 
 lib_hash = hashlib.sha256(message.encode('utf-8')).hexdigest()
-print(f"SHA-1 Hash using hashlib: {lib_hash}")
+print(f"SHA-256 Hash using hashlib: {lib_hash}")
 print(f"Match: {final_hash == lib_hash}")
