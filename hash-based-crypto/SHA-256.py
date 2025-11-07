@@ -80,7 +80,7 @@ def my_sha256(message):
         0x748f82ee, 0x78a5636f, 0x84c87814, 0x8cc70208, 0x90befffa, 0xa4506ceb, 0xbef9a3f7, 0xc67178f2
     ]
 
-# The SHA-256 uses 5 logical functions where each function takes 32-bit words as input and produces a 32-bit word as output.
+# The SHA-256 uses 6 logical functions where each function takes 32-bit words as input and produces a 32-bit word as output.
 
 
     def f1(x, y, z):
