@@ -240,6 +240,3 @@ def my_sha512(message):
     final_hash = ''.join(f'{s:016x}' for s in H)
     return final_hash
 
-message = input("Please Enter your Message: ")
-final_hash = my_sha512(message)
-
